@@ -11,7 +11,7 @@ st.title("🎉 Selamat Ulang Tahun Sae! 🎂")
 
 # Menampilkan Gambar
 img = Image.open('Happy/Ulangtahun.jpg')
-st.image(img, use_column_width=True)
+st.image(img)
 
 # Hari ini
 today = datetime.today()
