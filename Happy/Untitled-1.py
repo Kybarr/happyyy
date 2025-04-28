@@ -10,7 +10,7 @@ tanggal_lahir = datetime(2004, 4, 25)
 # Judul Aplikasi
 st.title("🎉 Selamat Ulang Tahun Sae! 🎂")
 
-img = Image.open('Ulangtahun.jpg')
+img = Image.open('Happy/Ulangtahun.jpg')
 st.image('ulangtahun.jpg')
 
 # Hari ini
@@ -33,7 +33,7 @@ else:
 st.title("🎶🎂")
 
 # Menambahkan audio
-audio_file = open('Happy Birthday Song!!!.mp3', 'rb')
+audio_file = open('Happy/Happy Birthday Song!!!.mp3', 'rb')
 audio_bytes = audio_file.read()
 
 st.audio(audio_bytes, format='audio/mp3', start_time=0)
